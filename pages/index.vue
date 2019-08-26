@@ -19,6 +19,7 @@
           class="button--grey">GitHub</a>
       </div>
     </div>
+    <v-btn>Button</v-btn>
   </section>
 </template>
 
