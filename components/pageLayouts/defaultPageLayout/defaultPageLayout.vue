@@ -3,7 +3,15 @@
     <DefaultTitleBar />
     <v-content>
       <v-container>
-        <nuxt />
+        <v-row  justify="center" >
+          <v-col
+              col="12"
+              md="8"
+              lg="6"
+          >
+            <nuxt />
+          </v-col>
+        </v-row>
       </v-container>
     </v-content>
     <v-footer app>
@@ -13,11 +21,6 @@
 </template>
 
 <script>
-import DefaultTitleBar from '~/components/titleBars/DefaultTitleBar/DefaultTitleBar.vue'
-
 export default {
-  components: {
-    DefaultTitleBar,
-  },
 }
 </script>
